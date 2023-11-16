@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;700&display=swap'); 
+ 
+*{ 
+    box-sizing: border-box; 
+} 
+body{ 
+    background: #FFD1D7; 
+    font-family: 'Cormorant', serif; 
+    margin: 0 auto; 
+    padding: 0 auto; 
+    font-size: 17px; 
+} 
+h1{ 
+    font-size: 64px; 
+} 
+.site-signup{ 
+    /* margin-top: 114px; */ 
+    max-width: 490px; 
+    /* height: 729px; */ 
+    background-color: white; 
+    text-align: center; 
+    padding-top: 114px; 
+    padding-bottom: 114px; 
+    box-sizing: border-box; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.site-login{ 
+    /* margin-top: 114px; */ 
+    max-width: 490px; 
+    /* height: 359px; */ 
+    background-color: white; 
+    text-align: center; 
+    padding-top: 70px; 
+    box-sizing: border-box; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+/* label{ 
+    display: none; 
+} */ 
+.row > *{ 
+    padding-left: 0 !important ; 
+    padding-right: 0 !important ; 
+} 
+.forms{ 
+    padding-bottom: 10px; 
+} 
+.col-lg-5 button{ 
+    width: 344px; 
+    height: 69px; 
+    border: 0; 
+    background: #FFD1D7; 
+    border-radius: 30px; 
+    font-size: 18px; 
+    font-weight: 500; 
+    font-family: 'Cormorant', serif; 
+    margin-top: 35px; 
+    color: #000; 
+    margin-bottom: 35px;
+} 
+.col-lg-5 button:hover { 
+    transition: 1s ease-in-out; 
+    background: white; 
+    color: #f3b4bc !important; 
+    box-shadow: inset 0 0 0 3px #f3b4bc; 
+    border: none;
+ 
+     
+ 
+} 
+.btn-1{ 
+    width: 245px; 
+    height: 55px; 
+    border-radius: 30px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    margin-right: 35px; 
+    margin-top: 37px; 
+} 
+ 
+@keyframes bounce { 
+ 0%, 20%, 60%, 100% { 
+  transform: translateY(0); 
+  transform: translateY(0); 
+ } 
+ 
+ 40% { 
+  transform: translateY(-20px); 
+  transform: translateY(-20px); 
+ } 
+ 
+ 80% { 
+  transform: translateY(-10px); 
+  transform: translateY(-10px); 
+ } 
+} 
+ 
+.btn-1:hover { 
+ animation: bounce 1s; 
+} 
+.form-control{ 
+    height: 40px; 
+    width: 350px; 
+    border: none; 
+    border-bottom: 1px solid black; 
+    font-family: 'Cormorant', serif; 
+    font-size: 17px; 
+     
+} 
+.col-lg-5{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 350px; 
+} 
+.diary{ 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    max-width: 1160px; 
+    height: 441px; 
+    background: white; 
+    margin-top: 183px; 
+    margin-left: auto; 
+    margin-right: auto; 
+     
+} 
+.diary-img img{ 
+    max-width: 100%; 
+} 
+.diary-button{ 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+     
+} 
+.diary-button a{ 
+    text-decoration: none; 
+    color: black; 
+     
+} 
+.diary h1{ 
+    max-width: 596px; 
+    font-weight: 700; 
+} 
+.diary p{ 
+    font-size: 20px; 
+    font-weight: 700; 
+} 
+ 
+.btn-link { 
+    border: #000; 
+} 
+.pp{ 
+    margin-top: 37px; 
+} 
+ 
+@media (min-width: 992px){ 
+  .col-lg-1 { 
+    flex: 0 0 auto; 
+    width: 100%;   
+} 
+} 
+ 
+.btn{ 
+    padding: 0; 
+} 
+.notes-create{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+} 
+.notes-update{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+} 
+.btn-success{ 
+    width: 245px; 
+    height: 55px; 
+    border-radius: 30px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    margin: 0 auto; 
+    display: block; 
+    margin-top: 37px; 
+} 
+.btn-success:hover { 
+ animation: bounce 1s; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+}
+.btn-success:active { 
+    animation: bounce 1s; 
+       border: 1px solid #000; 
+       background: #FBF5F5 !important; 
+       color: #000; 
+   }
+.btn-primary{ 
+    padding: 5px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    margin-right: 10px;
+} 
+.btn-danger{
+    padding: 5px;
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+}
+.btn-primary:hover{ 
+    padding: 5px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #0d6efd; 
+    border: 1px solid #0d6efd; 
+} 
+.btn-danger:hover{
+    padding: 5px;
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    color: #dc3545;
+    border: 1px solid #dc3545; 
+}
+.diary-text h1{
+    margin-top: 74px;
+}
+.breadcrumb{
+    display: none;
+}
